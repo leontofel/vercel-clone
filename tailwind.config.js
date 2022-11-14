@@ -6,7 +6,12 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      color: "white",
+      fontFamily: {
+        'space': ['Space Grotesk', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
